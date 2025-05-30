@@ -3,12 +3,10 @@ body {
 
     background-color: #f0f0f0;
 
-        background-color: #ffffff;
+    background-color: #ffffff;
 
-        background-color: #b2fbb2a5
+    background-color: #b2fbb2a5
 
-
-        color: #000000;
         /* Ensure text is visible against the background */
 }
 
@@ -88,30 +86,32 @@ body {
 
 
 
-/*Art Display*/
+/* Art Display */
 
-    .gallery {
-        width: min (100px, 100%);
-        margin: 1 auto;
-        columns: 3;
+.gallery {
+    width: min(100%, 850px);
+    /* Fix syntax: no space between 'min' and '(' */
+    margin: 1em auto;
+    /* Centers the container horizontally */
+    columns: 3;
 
-        background-color: aliceblue;
-        border: tan solid;
+    background-color: aliceblue;
+    border: solid tan;
 
-        margin-top: 10px;
-        padding: 75px;
-        min-width: 550px;
-        max-width: 850px;
+    margin-top: 10px;
+    padding: 75px;
+    min-width: 550px;
+    max-width: 850px;
 
-        border-radius:10%;
+    border-radius: 10%;
+}
 
-    }
-    .gallery img {
-        width: 100%;
-        border: black solid 2px;
-        display: block;
-        margin-bottom: 1em;
-    }
+.gallery img {
+    width: 100%;
+    border: 2px solid black;
+    display: block;
+    margin-bottom: 1em;
+}
 
 /* Enhance Image */
     /* Modal overlay */
